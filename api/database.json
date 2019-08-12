@@ -1,24 +1,22 @@
 {
-  "posts": [
+  "contacts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Zebulah",
+      "phoneNumber": "7509724902",
+      "address": "1000 Infinity Way",
+      "id": 1
     },
     {
-      "id": 2,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "Halubez!",
+      "phoneNumber": "7509724903",
+      "address": "1001 Infinity Way",
+      "id": 2
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "Bennett Foster",
+      "phoneNumber": "6159277253",
+      "address": "321 N. Oak Street",
+      "id": 3
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

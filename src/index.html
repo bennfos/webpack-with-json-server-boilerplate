@@ -10,7 +10,26 @@
 </head>
 
 <body>
-  <article id="container"></article>
+  <section id="contactForm">
+    <input type="hidden" id="contactId" value="" />
+    <fieldset>
+        <label class="inputLabel" for="contactName">Name</label>
+        <input required type="text" name="name" id="nameInput">
+    </fieldset>
+    <fieldset>
+        <label class="inputLabel" for="contactPhoneNumber">Phone Number</label>
+        <input required type="tel" name="phoneNumber" id="phoneNumberInput">
+    </fieldset>
+    <fieldset>
+        <label class="inputLabel" for="contactAddress">Street Address</label>
+        <input required type="text" name="address" id="addressInput">
+    </fieldset>
+    <button id="saveButton">Save</button>
+  </section>
+  <article id="contactList__container"></article>
+
+  <script type="module" src="scripts/main.js"></script>
 </body>
 
 </html>
+

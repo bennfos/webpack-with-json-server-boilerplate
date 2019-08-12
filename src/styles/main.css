@@ -1,0 +1,30 @@
+body {
+    background-color: darkcyan;
+    color: rgba(248, 232, 232, 0.849);
+}
+
+.contactCard {
+    border: 3px solid darkgoldenrod;
+    background-color: rgba(248, 232, 232, 0.849);
+    width: 600px;
+    margin: 20px;
+    height: 150px;
+    color: rgba(48, 48, 48, 0.685);
+}
+
+#saveButton {
+    margin: 5px 5px 5px 5px;
+}
+
+.delete {
+    margin: 40px 5px 5px 5px;
+}
+
+.edit {
+    margin: 45px 5px 5px 5px;
+}
+
+.contact {
+    margin: 2px;
+}
+
